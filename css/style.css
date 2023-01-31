@@ -1,0 +1,735 @@
+:root 
+{
+--tetri: rgb(255, 255, 255);
+--fonti: 20px;
+--Savi:rgb(0, 0, 0); 
+--opasiti: 50%;
+}
+.conteiner
+{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F6F8F9;
+    padding-top: 58px;
+    
+
+}
+
+
+
+.header1
+{
+    max-width: inherit;
+    width: inherit;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #F6F8F9;
+    padding: 18px 20px;
+    display:flex;
+    justify-content: space-between;
+   
+
+}
+
+
+.headerlogo
+{
+    background-color:rgb(248, 245, 42);
+    border-radius: 30%;
+    color: #FA6980;
+    animation: logo;
+    transition: all;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    
+}
+
+ .logo1
+ {
+    width:38px;
+    height: 15px;
+    border-radius: 30%;
+    background-color: white;
+    animation: logo1;
+    transition: all;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+ }
+ @keyframes logo1
+ {
+    0% {
+        background-color: white;
+        opacity: 1;
+        transform: scaleX(1) scaleY(1); 
+        box-shadow: 10px 10px 80px #FA6980, -10px -10px 80px #FA6980;
+    }
+    25% {
+        background-color: white;
+        opacity: 1;
+        transform: scaleX(1.2) scaleY(1.2); 
+        box-shadow: 7px 7px 80px #FA6980, -7px -7px 80px  #FA6980;
+    }
+    50% {
+        background-color: rgb(233, 230, 87);
+        opacity: 1;
+        transform: scaleX(1.3) scaleY(1.3); 
+        box-shadow: 5px 5px 80px #FA6980, -5px -5px 80px  #FA6980;
+    }
+    75% {
+        background-color: rgb(233, 230, 87);
+        opacity: 1;
+        transform: scaleX(1.4) scaleY(1.sec1div2txt4); 
+        box-shadow: 3px 3px 80px #FA6980, -3px -3px 80px  #FA6980;
+    }
+    100% {
+        background-color: rgb(233, 230, 87);
+        opacity: 1;
+        transform: scaleX(1.5) scaleY(1.5); 
+        box-shadow: 0 0  #FA6980, 0 0  #FA6980;
+        
+       }
+ }
+ .fa-solid{
+    margin-left: auto;
+    
+ }
+    
+.logo2
+{
+    font-size: 13px;
+    font-weight: bold;
+    color: #FA6980;
+   
+    
+}
+.ul1
+{
+
+display: flex;
+margin-left: 1025px;
+gap:31px;
+}
+.li1
+{
+    color: #343638;
+font-size: 11px;
+font-weight: bold;
+opacity: 50%;
+font-family: 'Oswald';
+}
+.li11{
+    color:black ;
+}
+.word_news
+{
+   color: #343638;
+    opacity: 100%;
+    
+}
+ /* ფერებს რატო ვერირებს არვიცი  */
+.li1:hover 
+{
+  
+  font-size: 13px;
+ 
+}
+/* დასრულდა ჰედერი */
+
+/* დაიწყო სექცია1  */
+.section1
+{
+    width: 100%;
+    height: 599px;
+    margin: 0 auto;
+    display: flex;
+    background-color: white;
+}
+.div1
+{ 
+    background-image: url(../img/photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.img_txt1
+{    width: 80%;
+    
+    
+}
+.title1
+{
+    margin-left: 140px;
+    margin-top: 176px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Oswald';
+    color: white;
+    margin-bottom: 40px;
+    border-bottom: 3px white solid;
+    padding-bottom: 40px;
+   
+    
+}
+.subtitle1
+{
+    margin-left: 140px;
+    font-size: 24px;
+    font-family: 'Oswald';
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.txt1
+{
+    margin-left: 140px;
+    font-size: 1rem;
+    font-family: 'Oswald';
+    color: white;
+}
+.linkbutton
+{  
+    margin-left: 140px;
+     width: 20%;
+    height: 40px;
+    background-color:  #FA6980;
+    margin-top: 30px;
+    border-radius: 15%;
+    color: white;
+}
+.linkbutton:hover 
+{
+    box-shadow: 10px 10px 50px red, -10px -10px 50px  red;
+    cursor: pointer; 
+}
+.div2
+{
+    width:40%;
+    height: 599px;
+    padding: 10%;
+    
+    
+    
+}
+.sec1div2div2
+{
+    width: 150%;
+    height: 300px;
+    
+}
+.sec1div2div3
+{   margin-bottom: 39px;
+}
+.sec1div2div4
+{
+    width: 100%;
+    margin: 0 auto;
+}
+.sec1div2txt2
+{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #FA6980;
+    font-family: 'Oswald';
+    margin-bottom: 20px;
+}
+.sec1div2txt3
+{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+}
+.sec1div2txt4 
+{
+    font-size: 1rem;
+    color: #A6ADB4;
+    font-family: 'Roboto';
+    margin-bottom: 10px;
+}
+.sec1div2txt1
+{
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Oswald';
+    margin-bottom: 79px;
+    
+}
+.sec1div2txt2
+{
+font-size: 1rem;
+font-weight: bold;
+color:#FA6980;
+font-family: 'Oswald';
+}
+.sec1div2txt3
+{
+    font-size: 1rem;
+    font-weight: bold; 
+}
+.sec1div2txt4
+{
+  font-size: 1rem;
+  color: #A6ADB4;
+  font-family: 'Roboto';
+}
+.sec1div2txt5
+{
+    font-size: 13px;
+    color: #A6ADB4;
+}
+.fa-clock
+{
+    color: #CBD0D3;
+}
+/* დასრულდა სექცია 1 */
+
+/* დაიწყო სექცია 2  */
+.section2
+{
+    width: 80%;
+    margin: 40px  auto 40px auto;
+}
+.sec2div1
+{
+    width: 100%;
+    margin-bottom: 42px;
+}
+.sec2div2
+{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec2div123
+{
+   width: 32%; 
+   height: 100%;
+   background-color: white;
+   border-radius: 6px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.sec2imagediv
+{
+    width: 100%;
+    height: 180px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.sec2image:hover
+{
+    transform: scale(2);
+    transition: 2s linear;
+    cursor: pointer;
+;
+}
+.sec2image
+{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+.sec2div123txt1
+{
+    margin-bottom: 9px;
+    width: 80%;
+}
+.sec2div123txt2
+{
+    width: 80%;
+}
+.sec2_title
+{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Oswald';
+    margin-bottom: 40px;
+}
+.sec2div123txt1
+{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Oswald';
+    margin-bottom: 9px;
+    width: 80%;
+ 
+}
+.sec2div123txt2
+{
+font-size: 13px;
+color: #A6ADB4;
+font-family: 'Roboto';
+width: 80%;
+}
+/* დასრულდა სექცია2 */
+ /* დაიწყო სექცია3  */
+.section3
+{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.sec3serTodivi
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+   
+    
+}
+.sec3div1
+{
+    width:65%;
+    height:900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.sec3div1_1
+{
+    width: 100%;
+    height: 49%;
+    background-image: url(../img/photo8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sec3div1_2
+{
+    width: 100%;
+    height: 48%;
+    background-image: url(../img/photo9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sec3div1_1txt1
+{    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    font-family: 'Oswald';
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 230px;
+}
+.sec3div1_1txt2
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Oswald';
+    margin-left: 40px;
+}
+.sec3div1_1txt3
+{
+    font-size: 1rem;
+    color: white;
+    font-family: 'Oswald';
+    margin-top: 10px;
+    margin-left: 40px;
+}
+.sec3div2
+{
+    width: 33%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+   
+}
+.sec3div123
+{
+    width: 100%;
+    height: 300px;
+}
+.sec3div2txt
+{
+    margin-top: 48px;
+}
+.sec3div2image
+{
+    width: 100%;
+    height: 210px;
+}
+.sec3_title
+{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Oswald';
+    margin-bottom: 40px;
+}
+.sec3div1_1txt1
+{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    font-family: 'Oswald';
+}
+.sec3div1_1txt2
+{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Oswald';
+}
+.sec3div1_1txt3
+{
+    font-size: 1rem;
+    margin-top: 10px;
+    color: white;
+    font-family: 'Oswald';
+}
+.sec3div2txt
+{
+    font-size: 1rem;
+    font-weight: bold;
+    font-family:  'Roboto';
+}
+/* დასრულდა სექცია 3 */
+
+
+
+ /* დაიწყო ფუტერი  */
+.footer1
+{
+    width: 80%;
+    margin-top: 100px;
+    background-color: #A6ADB4;
+    padding: 55px 10% 61px 10%;
+    display: flex;
+    justify-content: space-between;
+}
+.logotext
+{
+    display: flex;
+    gap: 50%;
+}
+.footerlogo
+{
+    width: 25%;
+    height: 100%;
+    
+}
+.footermenu
+{
+    display: flex;
+    gap: 40%;
+}
+.footerul
+{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.footertxt
+{
+    font-size: 13px;
+    font-weight: bold;
+    color: #CBD0D3;
+    font-family: 'Oswald';
+}
+.logotxt
+{
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+}
+.footersocialicondiv
+{
+    display: flex;
+    gap: 25%;
+}
+.footertxt
+{
+    font-size: 13px;
+    font-weight: bold;
+    color: #CBD0D3;
+    font-family: 'Oswald';
+}
+.tetri
+{
+    color: white;
+}
+ /* დასრულდა ფუტერი  */
+/* დასრულდა გვერდი 1 */
+
+
+/* 
+ ჰედერი დაკოპირებულია გვერდი 1_დან */
+.page2section1
+{
+    width: 80%;
+    
+    background-color: white;
+    margin: 103px  auto auto auto;
+    display: flex;
+}
+.page2section1div1
+{
+    width: 50%;
+    height: 500px;
+    background-image: url(../img2/img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page2sec1txt
+{
+    font-size: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+.page2sec1div2
+{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.form1 {
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.serchbox
+{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border-color: 4px #EBEDED solid;
+    border-radius: 6px;
+}
+.serchboxtxtx
+{
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Roboto';
+}
+.batton
+{    width: 40%;
+    height: 40px;
+    background-color:  #FA6980;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: 'Oswald';
+}
+.batton:hover
+{
+    color: black;
+    box-shadow: 3px 3px 50px #FA6980, -3px -3px 50px  #FA6980;
+}
+/* დასრულდა მეორე გვერდის სექცია1 */
+.page2section2
+{
+    width: 80%;
+    height: 253px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px #EBEDED solid;
+    border-top: 2px #EBEDED solid;
+    margin: 37px auto auto auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.avatar
+{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+.page2sec2_texts {
+    width: 67%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+  
+.page2sec2div1
+{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+  
+}
+.page2sec2div23
+{
+    width: 31%;
+    height: 100%;
+    display: flex;
+    margin-top: 40px;
+}
+.page2sec2h2
+{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+.page2sec2tex
+{
+    width: 47%;
+    font: 14px;
+    color: #A6ADB4;
+    line-height: 23px;
+    font-family: 'Oswald';
+}
+/* დასრულდა გვერდი 2 სექცია2 */
+.page2section3
+{
+    width: 80%;
+    height: 830px;
+    margin: 40px auto auto auto;
+    border-bottom: 2px #EBEDED solid;
+}
+.page2sec3picdiv
+{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img2/img1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.page2sec3txt
+{
+    font-size: 14px;
+    color: #A6ADB4;
+    font-family: 'Roboto';
+    line-height: 23px;
+}
+.txt1
+{
+    margin-top: 80px;
+}
+.txt2
+{
+    margin-top: 34px;
+}
+/* დასრულდა სექცია 3 */
+.footer2
+{
+    margin-top: 161px;
+}

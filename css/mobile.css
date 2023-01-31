@@ -1,0 +1,35 @@
+@media(max-width: 375px)
+{
+    .header1ul
+    {
+        display: none;
+    }
+
+    .fa-bars
+    {
+        margin-left: 226px
+    }
+
+    .header1
+    {
+        padding: 39px 55px 35px 40px;
+    }
+
+    .linkbutton
+    {
+        width: 40%;
+    }
+
+    .section1
+    {
+        height: 750px;
+
+    }
+
+    .section1div1
+    {
+        height: 100%;
+    }
+
+    
+}
